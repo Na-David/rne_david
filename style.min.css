@@ -49,6 +49,12 @@ body {
   -ms-flex-align: center;
   align-items: center;
 }
+#qrView {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; /* 수평 방향 가운데 정렬 */
+  text-align: center; 
+}
 #copyView p,
 #keyInfo p {
   margin: 1rem 2em 2rem;
@@ -75,6 +81,10 @@ body {
 #qrView h2,
 #qrView p {
   margin: 0 2rem 0.5rem;
+}
+#qrView img {
+  display: block;
+  margin: 0 auto;
 }
 #qr {
   margin: 1rem 2rem 2rem;
